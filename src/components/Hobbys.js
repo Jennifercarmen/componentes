@@ -6,6 +6,7 @@ const Hobbys = () => (
 
  <ul> 
           <li>Cantar </li>
+      
           <li>Escuchar música </li>
       </ul>
  
