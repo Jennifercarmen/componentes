@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from './Header';
-import Hobbies from './Sectionhobbies';
+import Hobbiesapp from './Hobbiesapp';
 import Footer from './Footer';
+
 const App = () => (
   <div>
-    <Header />
-    <Hobbies />
-    <Footer />
+    <Header/>
+    <Hobbiesapp/>
+    <Footer/>
   </div>
 )
 

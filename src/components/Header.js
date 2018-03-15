@@ -1,13 +1,16 @@
 import React from 'react';
-const Footer = () => (
-    <div className="header">
-        <nav>
-            <div className="nav-wrapper">
-                <a href="#" className="brand-logo">Jennifer</a>
+import Navbar from './Navbar';
 
-            </div>
-        </nav>
+const datosEspañol=['inico ', ' nosotros', ' mision'];
+
+const datosIngles=['Wellcome','Us','They']
+
+const Header = () => (
+    <div>
+    <Navbar arrayOfString={datosEspañol} />
     </div>
+
 )
 
-export default Footer
+
+export default Header

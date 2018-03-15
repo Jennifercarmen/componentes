@@ -1,12 +1,12 @@
 import React from 'react';
-const hobbies = ['cantar', 'Escuchar musica'];
+import Hobbies from './Hobbies';
 
-const Sectionhobbies = () => (
+const Sectionhobbies = (props) => (
   <div className="header">
     <ul>
-      {hobbies.map(hobbie =>
-        <li key={hobbie}>{hobbie}</li>)
-        }
+      <h1>Message:     <Hobbies />
+      </h1>
+
     </ul>
   </div>
 )
